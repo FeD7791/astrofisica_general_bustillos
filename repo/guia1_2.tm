@@ -104,6 +104,184 @@
   isotropo: <math|R<rsub|\<lambda\>>=\<pi\> I>. Por supuesto si considera
   todas las longitudes de onda debera integrar en todas ellas.
 
+  <subsection|Correccion Bolometrica y magnitud Bolometrica>
+
+  <\itemize-dot>
+    <item>Que es la magnitud bolometrica?: <em|The bolometric magnitude of a
+    star is the <strong|magnitude integrated over the entire electromagnetic
+    spectrum>. Since no single measuring instrument is capable of detecting
+    all wavelengths, the bolometric magnitude must be calculated from several
+    measurements on different types of telescope.>
+
+    <item>Que es la Correccion Bolometrica?: <em|The bolometric correction BC
+    is the difference between a star's bolometric magnitude
+    <math|m<rsub|bol>> and its visual magnitude.> Es decir:
+    <math|B.C=m<rsub|bol>-V>
+
+    <item>La relacion con la magnitud absoluta es la siguiente:
+    <math|B.C=m<rsub|bol>-V=M<rsub|bol>-M<rsub|V>>
+  </itemize-dot>
+
+  <subsection|Relacion Magnitud - Luminosidad - Flujo>
+
+  <\itemize-dot>
+    <item><math|100<rsup|<around*|(|M<rsub|1>-M<rsub|2>|)>/5>=<frac|L<rsub|2>|L<rsub|1>>>
+
+    <item>Temperatura efectiva: <math|L=4\<pi\>R<rsup|2>\<sigma\>
+    T<rsub|e><rsup|4>>
+  </itemize-dot>
+
+  <section|Practico>
+
+  <\enumerate-numeric>
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>
+
+    <item>Elija una estrella de la secuencia principal del diagrama de la
+    Figura 2 del cúmulo de las Hyades (r=46 pc) y encuentre:
+
+    <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+    2025-05-07 19-47-59.png|0.7par|||>
+
+    La magnitud absoluta visual:\ 
+
+    <\itemize-minus>
+      <item>Use la formula de modulo de distancia:
+      <math|m-M=log<around*|(|<frac|d|10<around*|[|pc|]>>|)>>
+
+      <item>Si el cumulo se encuentra en <math|d=46<around*|[|pc|]>> luego si
+      la estrella tiene por ejemplo <math|V=10>, tendremos
+      <math|M=V-log<around*|(|<frac|d|10<around*|[|pc|]>>|)>=V-0.7=9.3>
+    </itemize-minus>
+
+    La magnitud absoluta bolométrica
+
+    <\itemize-minus>
+      <item>La mayoria de las estrellas en este cumulo son de tipo espectral
+      F8, de la secuencia principal. Con ello usamos la edicion 4 de Allen,
+      pag 388. Tabla 15.7
+    </itemize-minus>
+
+    <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+    2025-05-07 20-33-41.png|0.7par|||>
+
+    <\itemize-minus>
+      <item><math|B.C=m<rsub|bol>-V\<Rightarrow\>-0.16=m<rsub|bol>-10\<Leftrightarrow\>m<rsub|bol>=9.84>
+
+      <item><math|B.C=M<rsub|bol>-M<rsub|V>\<Rightarrow\>9.84=M<rsub|bol>-M<rsub|V>\<Leftrightarrow\>9.84-9.3=M<rsub|bol>\<Rightarrow\>M<rsub|bol>=0.54>
+    </itemize-minus>
+
+    La luminosidad
+
+    <\itemize-minus>
+      <item><math|100<rsup|<around*|(|M<rsub|1>-M<rsub|2>|)>/5>=<frac|L<rsub|2>|L<rsub|1>>\<Leftrightarrow\>100<rsup|<around*|(|M<rsub|bol>-M<rsub|\<odot\>>|)>>=<frac|L<rsub|\<odot\>>|L<rsub|bol>>>
+
+      <item>Tener en cuenta que: <math|L<rsub|\<odot\>>=3.845\<times\>10<rsup|33><around*|[|erg|]><around*|[|s<rsup|-1>|]>>
+
+      <item><math|M<rsub|\<odot\>>=4.74> (Segun Allen:
+      <math|<with|color|red|M<rsub|bol>=-2.5
+      log<around*|(|L/L<rsub|\<odot\>>|)>+4.74>> )
+
+      <item><math|L<rsub|bol>=100<rsup|<around*|(|M<rsub|\<odot\>>-M<rsub|bol>|)>>L<rsub|\<odot\>>=100<rsup|<around*|(|4.74-0.54|)>><around*|(|3.845\<times\>10<rsup|33><around*|[|erg|]><around*|[|s<rsup|-1>|]>|)>=9.6\<times\>10<rsup|41><around*|[|erg|]><around*|[|s<rsup|-1>|]>>
+    </itemize-minus>
+
+    La temperatura efectiva
+
+    <\itemize-minus>
+      <item>Para calcular la temperatura efectiva:
+      <math|L=4\<pi\>R<rsup|2>\<sigma\> T<rsub|e><rsup|4>>
+
+      <item><math|R<rsub|\<odot\>>=6.955 08*\<times\>10<rsup|8><around*|[|m|]>>
+
+      <item>Podrias calcularla de tabla: 6250<math|<around*|[|K|]>>
+
+      <item>Otra forma de hacerlo es asi: <math|B-V=-0.64+<frac|7200|T>>
+    </itemize-minus>
+
+    El tipo espectral
+
+    El radio:
+
+    <\itemize-minus>
+      <item>Puedo calcular el radio si conozco la luminosidad calculada en el
+      punto anterior:
+
+      <item><math|L=4\<pi\>R<rsup|2>\<sigma\> T<rsub|e><rsup|4>>
+    </itemize-minus>
+
+    La masa
+
+    <\itemize-minus>
+      <item>Se puede calcular la masa asi:
+      <math|log<around*|(|\<cal-M\>/\<cal-M\><rsub|\<odot\>>|)>=0.48-0.105M<rsub|bol>>
+    </itemize-minus>
+
+    La densidad media
+
+    <\itemize-minus>
+      <item><math|\<rho\>=<frac|\<cal-M\>|<frac|4|3>\<pi\> R<rsup|3>>>
+    </itemize-minus>
+
+    <item>Se han medido las magnitudes B y V de una cierta estrella de
+    secuencia principal. El valor de la magnitud V resultó igual a 13.54 y el
+    de la magnitud B de 14.41.
+
+    <\enumerate-alpha>
+      <item>Con las mediciones hechas ¾podría determinar el enrojecimiento?
+
+      <\itemize-minus>
+        <item><math|B-V=14.41-13.54=0.97>
+
+        <item>Usando la tabla, como <math|0.91\<less\>0.97\<less\>1.15> ,
+        para los cuales corresponden: <math|6.4\<less\>M<rsub|V>\<less\>7.35>
+        entonces interpolamos:
+
+        <math|<with|color|blue|M<rsub|V>=<frac|7.35-6.4|1.15-0.91><around*|(|x-0.91|)>+6.4>=>\ 
+
+        Tomando: <math|x=0.97> luego: <math|M<rsub|V>= 6.67>
+
+        <item>Considero que no es suficiente para determinar el
+        enrojecimiento, me faltaria por ejemplo la distancia.
+      </itemize-minus>
+
+      <item>Suponiendo que E(B-V) = 0.25 determinar: el índice (B-V)
+      desenrojecido, la magnitud aparente visual desenrojecida, la magnitud
+      aparente bolométrica y la distancia.
+
+      <\itemize-minus>
+        <item><math|E<around*|(|B-V|)>=0.25\<Rightarrow\><around*|(|B-V|)><rsub|0>=B-V-E=0.97-0.25=0.72>
+
+        <item>Teniendo en cuenta que: <math|R=<frac|A<rsub|V>|E>\<Leftrightarrow\>A<rsub|V>=3.1*\<nospace\>\<nosymbol\>\<cdummy\>0.72=2.23>
+
+        <item>Posteriormente: <math|V=V<rsub|0>+A<rsub|V>\<Leftrightarrow\>V<rsub|0>=V-A<rsub|V>=13.54-2.23=11.31>
+
+        <item>Para calcular <math|m<rsub|bol>> utilizo la correccion
+        bolometrica: <math|B.C=m<rsub|bol>-V>
+      </itemize-minus>
+
+      <item>Suponga ahora que NO realizamos la corrección por enrojecimiento.
+      Determinar la distancia al objeto. Comparar este valor con el
+      determinado en el punto b).
+    </enumerate-alpha>
+  </enumerate-numeric>
+
   \;
 </body>
 
@@ -115,14 +293,22 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|../../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-2|<tuple|1.1|1|../../.TeXmacs/texts/scratch/no_name_4.tm>>
-    <associate|auto-3|<tuple|1|?|../../.TeXmacs/texts/scratch/no_name_4.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|1.1|1>>
+    <associate|auto-3|<tuple|1|1>>
+    <associate|auto-4|<tuple|1.2|?>>
+    <associate|auto-5|<tuple|1.3|?>>
+    <associate|auto-6|<tuple|2|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|figure>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
+        \;
+      </surround>|<pageref|auto-3>>
+    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Teoria>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
