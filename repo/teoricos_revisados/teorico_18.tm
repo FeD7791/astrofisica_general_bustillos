@@ -3,6 +3,8 @@
 <style|generic>
 
 <\body>
+  <doc-data|<doc-title|Perfil de Lineas>>
+
   <\samp>
     \;
 
@@ -160,6 +162,9 @@
     <item><math|\<Delta\> E=2\<pi\> \<hbar\>c<around*|(|<frac|\<Delta\>\<lambda\>|\<lambda\><rsub|f>\<lambda\><rsub|i>>|)>\<Leftrightarrow\>\<Delta\>\<lambda\>\<approx\><frac|\<lambda\><rsup|2>|2\<pi\>
     \<hbar\> c>\<Delta\>E\<Leftrightarrow\><block|<tformat|<table|<row|<cell|\<Delta\>\<lambda\>\<thickapprox\><frac|\<lambda\><rsup|2>|2\<pi\>
     c><frac|1|\<Delta\> t>>>>>>>
+
+    <item>El perfil de un ensanchamiento natural es un <strong|perfil
+    Lorentziano>
   </itemize-dot>
 
   <subsubsection|Ensanchamiento Doppler>
@@ -193,6 +198,9 @@
 
     <item>*Aparece ese factorcito 2 que calculo debe ser debido a los dos
     signos <math|\<pm\>>.
+
+    <item>El perfil asociado a el ensanchamiento por efecto doppler, es un
+    perfil Gaussiano.
   </itemize-dot>
 
   <subsubsection|Ensanchamiento colisional y de presion>
@@ -239,7 +247,59 @@
     </equation*>
 
     <item>Se destaca que este ensanchamiento depende de <math|n>.
+
+    <item>El ensanchamiento de la linea se corresponde con un perfil
+    Lorentziano.
   </itemize-dot>
+
+  <section|El perfil de Voigt>
+
+  <subsection|Perfil Gausiano y lorentziano>
+
+  A lo largo de toda esta seccion, hemos hablado de los perfiles Gaussiano y
+  Lorentziano de las curvas.
+
+  <\itemize-dot>
+    <item>Perfil Lorentziano: Este perfil, tiene la siguiente forma
+    matematica general:
+
+    <\equation*>
+      L<around*|(|\<nu\>|)>=<frac|1|\<pi\>>\<cdummy\><frac|1|<around*|(|\<nu\>-\<nu\><rsub|0>|)><rsup|2>+\<gamma\>>
+    </equation*>
+
+    <item>Perfil Gaussiano: Este perfil tiene la forma gaussiana conocida:
+
+    <\equation*>
+      G<around*|(|\<nu\>|)>=<frac|1|<sqrt|\<pi\>>\<sigma\>>e<rsup|-<around*|(|<frac|\<nu\>-\<nu\><rsub|0>|\<sigma\>>|)><rsup|2>>
+    </equation*>
+  </itemize-dot>
+
+  El perfil de Voigt combina estos dos perfiles en una convolucion:
+
+  <\equation*>
+    V<around*|(|\<nu\>|)>=<big|int>G<around*|(|\<nu\><rprime|'>|)>L<around*|(|\<nu\>-\<nu\><rprime|'>|)>
+    d \<nu\><rprime|'>
+  </equation*>
+
+  Con esto incorporamos en forma matematica el hecho de que un ensanchamiento
+  de linea es debido a multiples factores. Recordar que el ensanchamiento
+  natural, nos da como resultado un perfil Lorentziano, asi como el
+  ensanchamiento por presion, mientras que el ensanchamiento por efecto
+  doppler nos da un perfil Gaussiano.
+
+  <\big-figure|<image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+  from 2025-07-13 16-42-04.png|0.6par|||>>
+    Deacuerdo al libro de Carroll-Ostie: <em|The wider line prole for
+    Doppler broadening dominates near the <strong|central> wavelength
+    \<lambda\>0 . Farther from \<lambda\>0 , however, the exponential
+    decrease in the line depth for <strong|Doppler broadening> means that
+    there is a transition to a <strong|damping prole> in the wings at a
+    distance of about 1.8 times the Doppler value of
+    (\<threesuperior\>\<lambda\>)1/2 from the center of the line. Thus line
+    proles tend to have <strong|Doppler cores and damping wings >.> Es
+    decir, que cerca del centro de la linea tenemos un perfil Gaussiano,
+    mientras que en la parte de las alas un perfil de Lorentz.
+  </big-figure>
 
   \;
 </body>
@@ -252,26 +312,85 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-10|<tuple|1.4.2|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-11|<tuple|1.4.3|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-2|<tuple|1.1|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-3|<tuple|1.1.1|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-4|<tuple|1.1.2|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-5|<tuple|1|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-6|<tuple|1.2|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-7|<tuple|1.3|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-8|<tuple|1.4|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
-    <associate|auto-9|<tuple|1.4.1|?|../../../.TeXmacs/texts/scratch/no_name_6.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|1.4.2|4>>
+    <associate|auto-11|<tuple|1.4.3|4>>
+    <associate|auto-12|<tuple|2|?>>
+    <associate|auto-13|<tuple|2.1|?>>
+    <associate|auto-14|<tuple|2|?>>
+    <associate|auto-2|<tuple|1.1|1>>
+    <associate|auto-3|<tuple|1.1.1|1>>
+    <associate|auto-4|<tuple|1.1.2|2>>
+    <associate|auto-5|<tuple|1|2>>
+    <associate|auto-6|<tuple|1.2|2>>
+    <associate|auto-7|<tuple|1.3|3>>
+    <associate|auto-8|<tuple|1.4|3>>
+    <associate|auto-9|<tuple|1.4.1|3>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|figure>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
+        Como puede verse, la luz primero pasa por una rejilla primaria
+        (Slit). Luego llega a una rejilla de difraccion (diffraction grating
+        en la imagen). La rejilla de difraccion es una serie de rejillas.
+        Ondas diferentes tienen que sus maximos ocurren a diferentes angulos
+        <with|mode|<quote|math>|\<theta\>>:
+
+        <\with|mode|<quote|math>|math-display|<quote|true>|par-ver-sep|<quote|0.6fn>>
+          <\surround|<no-page-break*><vspace*|0.35fn><no-indent><htab|0fn>|<htab|0fn><vspace|0.35fn><no-indent*>>
+            d sin\<theta\>=n\<lambda\>
+          </surround>
+        </with>
+
+        Donde <with|mode|<quote|math>|d> es la distancia entre las distintas
+        rejillas, <with|mode|<quote|math>|n> es el orden del espectro y
+        <with|mode|<quote|math>|\<theta\>> es medido perpendicular a la
+        rejilla.
+      </surround>|<pageref|auto-5>>
+    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Introduccion>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|1.1<space|2spc>Efecto doppler de las lineas
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|2tab>|1.1.1<space|2spc>Nota sobre las coordenadas
+      de movimiento de las estrellas <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
+
+      <with|par-left|<quote|2tab>|1.1.2<space|2spc>Nota el espectrografo
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4>>
+
+      <with|par-left|<quote|1tab>|1.2<space|2spc>El ancho equivalente
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6>>
+
+      <with|par-left|<quote|1tab>|1.3<space|2spc>FWHM
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7>>
+
+      <with|par-left|<quote|1tab>|1.4<space|2spc>Procesos que ensanchan las
+      lineas espectrales. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8>>
+
+      <with|par-left|<quote|2tab>|1.4.1<space|2spc>Ensanchamiento Natural
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9>>
+
+      <with|par-left|<quote|2tab>|1.4.2<space|2spc>Ensanchamiento Doppler
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-10>>
+
+      <with|par-left|<quote|2tab>|1.4.3<space|2spc>Ensanchamiento colisional
+      y de presion <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11>>
     </associate>
   </collection>
 </auxiliary>

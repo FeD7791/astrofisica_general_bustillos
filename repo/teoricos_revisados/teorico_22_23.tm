@@ -5,26 +5,6 @@
 <\body>
   <doc-data|<doc-title|Teorico: Ecuaciones Fundamentales>>
 
-  Las siguientes son las ecuaciones que regulan los interiores estelares:
-
-  <\itemize-dot>
-    <item>La ecuación de equilibrio hidrostático
-
-    <item>La ecuación de conservación de la masa
-
-    <item>La ecuación de estado de los gases ideales
-
-    <item>La ecuación del equilibrio térmico
-
-    <\itemize-minus>
-      <item>Metodo de transporte de energia (Solo hablamos de la radiacion)
-
-      <item>Gases ideales
-    </itemize-minus>
-
-    <item>\PEl transporte de energía\Q
-  </itemize-dot>
-
   <section|Fuentes de energia estelar>
 
   Nota: La profe empieza con el teorico numero 23 antes que el 22.
@@ -54,11 +34,26 @@
     ha emitido de manera sostenida y constante desde hace millones de anios.
   </itemize-dot>
 
+  <subsection|Resumen>
+
+  En esta seccion, se busca responder a la respuesta de cual es la fuente
+  energetica que hace que mantiene a las estrellas en actividad. Se postulan
+  como fuentes de energia a:
+
+  <\itemize-minus>
+    <item>Contraccion Gravitacional
+
+    <item>Energia Termica y cinetica
+
+    <item>Energia Nuclear. Siendo esta la principal fuente de energia, que se
+    genera a traves de los procesos de fusion de elementos.
+  </itemize-minus>
+
   <subsection|Contraccion gravitacional>
 
   <\itemize-dot>
     <item>Una contraccion de <math|10<rsup|-4>R<rsub|\<odot\>>> genera una
-    cantidad suficiente de calor como para compensar lo que pierde el sor por
+    cantidad suficiente de calor como para compensar lo que pierde el sol por
     radiacion en <math|2000<around*|[|y|]>>
 
     <\itemize-minus>
@@ -235,7 +230,7 @@
       <item><math|E=0.0071\<times\>M<rsub|\<odot\>>\<times\>c<rsup|2>=1.3\<times\>10<rsup|45><around*|[|J|]>>
     </itemize-minus>
 
-    <item>Para entender un poco mas hacerca de si este valor tiene sentido o
+    <item>Para entender un poco mas acerca de si este valor tiene sentido o
     no, tomemos la luminosidad del sol, que tiene por unidades
     <math|<around*|[|J|]>/<around*|[|s|]>>.
 
@@ -282,9 +277,9 @@
     los ciclos. La eficiencia del ciclo PP es proporcional a <math|T<rsup|4>>
     mientras que la del ciclo CNO es proporcional a <math|T<rsup|17>>. En la
     figura puede verse el sol, que tienen una temperatura de aproximadamente
-    <math|15\<times\>10<rsup|6><around*|[|K|]>>. Como puede verse, par ala
-    misma la cadena proton proton es la que da el mayor aporte de enrgia.
-    Para mayores temperaturas, mas alla de los
+    <math|15\<times\>10<rsup|6><around*|[|K|]>> en su nucleo. Como puede
+    verse, para la misma la cadena proton proton es la que da el mayor aporte
+    de enrgia. Para mayores temperaturas, mas alla de los
     <math|18\<times\>10<rsup|6><around*|[|K|]>>, tendremos que domina el
     ciclo CNO.
   </big-figure>
@@ -432,6 +427,102 @@
   </big-figure>
 
   <section|Ecuaciones fundamentales>
+
+  <subsection|Resumen>
+
+  Estas ecuaciones son: (Libro de Erika): Son cinco ecuaciones diferenciales
+  que describen la presion, la temperatura, la luminosidad, radio y
+  abundancias de elementos quimicos en funcion de la masa a un dado tiempo t
+  y su evolucion: <math|m<around*|(|t|)>>.\ 
+
+  La solucion de estas ecuaciones requieren conocimiento sobre funciones
+  auxiliares como la ecuacion de estado y opacidad de la materia estelar asi
+  como la tasa de generacion de energia.
+
+  Antes de resumir las ecuaciones tener en cuenta los conceptos de equilibrio
+  termico y equilibrio hidrostatico:
+
+  <\itemize-minus>
+    <item><strong|Thermal equilibrium> is a state in which all parts of a
+    system (or interacting systems) have the same <strong|temperature>, and
+    as a result, <strong|no net heat flows> between them.
+
+    <item><strong|Hydrostatic equilibrium> is the balance between two
+    opposing forces in a star (or any self-gravitating fluid body).
+  </itemize-minus>
+
+  Las ecuacines fundamentales de la estructura estelar son:
+
+  <\itemize-dot>
+    <item>Ecuacion de continuidad (conservacion de la masa):
+
+    <\itemize-minus>
+      <item><math|<frac|d m|d r>=4\<pi\> r<rsup|2>\<rho\>>
+
+      <item>Esta ecuacion nos indica como varia la masa de forma radial, es
+      decir en funcion de su distancia al centro de la estrella.
+    </itemize-minus>
+
+    <item>Ecuacion de Equilibrio Hidrostatico:
+
+    <\itemize-minus>
+      <item><math|<frac|d P|d r>=-<frac|G m \<rho\>|r<rsup|2>>>
+
+      <item>Esta ecuacion nos habla del balance entre la gravedad que empuja
+      hacia adentro, trantando de colapsar la estrella y la presion de los
+      gases, que empuja en el sentido contrario y trada que los mismos
+      escapen de la estrella. Con estas la estrella se mantiene estable, sin
+      contraerse ni expandirse.
+    </itemize-minus>
+
+    <item>Ecuacion de Conservacion de la Energia (Equilibrio Termico -
+    Gradiente de Luminosidad):
+
+    <\itemize-minus>
+      <item><math|<frac|d L|d r>=4\<pi\>r<rsup|2>\<rho\> \<varepsilon\>>
+
+      <item>Esta ecuacion nos dice que la energia que pierde la estrella por
+      unidad de tiempo, es compensada por la energia nuclear generada, por
+      unidad de tiempo, en la estrella.
+
+      <item>Equilibrio Termico: La temperatura en cada punto de la estrella
+      permanece relativamente constante por largos periodos de tiempo.
+
+      <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+      2025-07-13 12-19-58.png|0.7par|||>
+    </itemize-minus>
+
+    <item>Ecuacion de Estado:
+
+    <\itemize-minus>
+      <item><math|P<around*|(|r|)>=<frac|R|\<mu\>>
+      \<rho\><around*|(|r|)>T<around*|(|r|)>>
+
+      <item>Esta ecuacion seniala que el gas que compone la estrella, se
+      comporta como un gas ideal, el cual verifica la relacion <math|P=N k T>
+    </itemize-minus>
+
+    <item>Ecuacion de Transporte de Energia:
+
+    <\itemize-minus>
+      <item><math|<frac|d T|d m>=-<frac|T|P>\<nabla\><frac|G m|4\<pi\>
+      r<rsup|4>>>
+
+      <item>Esta ecuacion hace referencia a la forma en la que se transporta
+      la energia desde el centro de la misma hasta su superficie. Existen 3
+      mecanismos de transporte de energia: Radiacion, Conveccion y
+      Conduccion. Prevalece el transporte radiativo, de manera que la energia
+      es transmitida a traves de fotones.
+
+      <item>En el caso de la radiacion, la opacidad de la estrella es
+      importante dado que los fotones emitidos chocan de forma aleatoria con
+      los atomos presentes en la estrella.
+    </itemize-minus>
+
+    <item>El Teorema de Vogt-Russell: Este teorema (no formalmente
+    demostrado) nos indica que la masa y la composicion quimica, univocamente
+    determinan: El radio, la luminosidad y la estructura interna.
+  </itemize-dot>
 
   <subsection|Introduccion>
 
@@ -598,6 +689,193 @@
 
   <subsubsection|Temperatura en el interior de una estrella>
 
+  <section|Notas - Principio Evolucion Estelar - Libro Claria>
+
+  Consideremos una masa de gas, ideal, aislada en el espacio, la cual
+  verifica:
+
+  <\equation*>
+    P=N k T
+  </equation*>
+
+  k es la constante de Boltzmann y N el número total de partículas.
+
+  A medida que transcurre el tiempo, la masa de gas irá contrayéndose por
+  simple gravitación y liberando energía gravitacional en forma de calor.
+
+  En consecuencia, la temperatura se irá incrementando en el centro de la
+  masa considerada. Como resultado de la contracción gravitatoria se
+  incrementará también la presión gaseosa y la densidad en la región central
+  de la masa de gas.\ 
+
+  Finalmente, llegará un momento en que se logra un estado de equilibrio, en
+  el cual el peso de cada elemento de volumen del gas es exactamente
+  balanceado por la presión de los gases. Se dice entonces que el gas ha
+  alcanzado el estado de <strong|equilibrio hidrostático>.
+
+  <\itemize-dot>
+    <item>La condición de equilibrio hidrostático exige que la fuerza de
+    atracción gravitatoria que obliga a la masa a contraerse, debe ser
+    balanceada por las fuerzas de presión de los gases.
+  </itemize-dot>
+
+  Consideremos ahora la siguiente situacion:
+
+  <\big-figure|<image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+  from 2025-07-13 13-09-11.png|0.7par|||>>
+    Tenemos una estrella, y un cilindro de gas orientado de forma radial. Por
+    un lado tendremos que las tapas del cilindro sufren la fuerza de presion
+    P.
+  </big-figure>
+
+  Si consideramos, a nuestro cilindro de masa <math|d m>, la fuerza
+  gravitatoria existente entre este cilindro y la masa contenida a una
+  distancia <math|r> del centro: <math|M<around*|(|r|)>> estara dada por:
+
+  <\equation*>
+    F<rsub|g>=-G <frac|M<around*|(|r|)> d m|r<rsup|2>>
+  </equation*>
+
+  Teniendo en cuenta que la densidad de la estrella varia segun su distancia
+  al centro, podemos escribir:\ 
+
+  <\equation*>
+    d m=\<rho\><around*|(|r|)> d s d r=\<rho\><around*|(|r|)>\<pi\> r<rsup|2>
+    d r
+  </equation*>
+
+  Claramente <math|d s> es el area de la tapa del cilindro.
+
+  En cada una de sus caras, el cilindro sufre una fuerza de presion:
+
+  <math|P<around*|(|r|)>=<frac|d F<rsub|p><around*|(|r|)>|d s><rsub|>> y
+  <math|P<around*|(|r+d r|)>=<frac|d F<rsub|p><around*|(|r+d r|)>|d s>>
+
+  De manera que podemos calcular la fuerza de presion como:
+
+  <\equation*>
+    F<rsub|p>=<frac|d P|d r> d r d s
+  </equation*>
+
+  Suponiendo el equilibrio, equilibrio hidrostatico, tendremos que
+  <math|F<rsub|p>=F<rsub|g>> en consecuencia:
+
+  <\equation*>
+    -G <frac|M<around*|(|r|)> \<rho\><around*|(|r|)> d s d
+    r|r<rsup|2>>=<frac|d P|d r> d r d s\<Leftrightarrow\><with|color|blue|<block|<tformat|<table|<row|<cell|-G
+    <frac|M<around*|(|r|)> \<rho\><around*|(|r|)>|r<rsup|2>>=<frac|d P|d
+    r>>>>>> >
+  </equation*>
+
+  Esta es la ecuacion de<with|color|blue| <strong|Equilibrio Hidrostatico>>.
+
+  \;
+
+  Consideremos ahora, un shell esferico, es decir, dos capas esfericas
+  separadas por una distancia radial <math|d r> conteniendo toda la materia
+  entre ellas. Tendremos entonces un diferencial de masa. Tomando denuevo, la
+  densidad a radio <math|r>
+
+  <\equation*>
+    d M=\<rho\><around*|(|r|)> d V
+  </equation*>
+
+  <math|V<around*|(|r|)>=<frac|4|3>\<pi\> r<rsup|3>\<Rightarrow\>d V=4\<pi\>
+  r<rsup|2> d r>
+
+  De manera que obtendremos:
+
+  <\equation*>
+    d M=\<rho\><around*|(|r|)>4\<pi\> r<rsup|2> d
+    r\<Leftrightarrow\><with|color|red|<block|<tformat|<table|<row|<cell|<frac|d
+    M|d r>=\<rho\><around*|(|r|)> 4\<pi\> r<rsup|2>>>>>>>
+  </equation*>
+
+  Esta es la ecuacion de <with|color|red|conservacion de la masa>.
+
+  <\itemize-dot>
+    <item>Estas ecuaciones no se pueden resolver , pero se pueden hacer
+    estimaciones reemplazando los diferenciales por deltas <math|\<Delta\>>.
+  </itemize-dot>
+
+  Siguiendo con el analisis, supongamos que ahora queremos calcular la
+  temperatura del centro de una estrella, en este caso el sol, podemos asumir
+  que:
+
+  <\itemize-minus>
+    <item>Dicha estrella esta compuesta solamente por atomos de Hidrogeno,
+    los cuales estan compuestos de un proton y un electron. Asumimos sin
+    embargo, que todos estos atomos estan ionizados, es decir que de ellos
+    nos queda solamente los protones, por lo tanto si <math|N>: Numero de
+    particulas en la estrella, claramente <math|N=N<rsub|p>+N<rsub|e>>:
+    Numero de protones en la estrella + Numero de elctrones, libres. La
+    correspondencia entre numero de protones y de electrones libres es uno a
+    uno.
+
+    <item>Debido a que los electrones tienen masas despreciables frente a la
+    de los protones, podemos escribir: <math|\<rho\>=m<rsub|p>
+    N<rsub|p>=m<rsub|H> N<rsub|p>> , pues la masa del atomo de hidrogeno es
+    muy parecida a la del proton. De aca podemos decir:
+    <math|N<rsub|p>=<frac|\<rho\>|m<rsub|H>>>
+
+    <item>Podemos escribir entonces:
+
+    <\equation*>
+      N=N<rsub|p>+N<rsub|e>=<frac|\<rho\>|m<rsub|H>>+<frac|\<rho\>|m<rsub|H>>=<frac|2
+      \<rho\>|m<rsub|H>>
+    </equation*>
+
+    <item>Ya que como dijimos mas arriba, hay tantos protones como
+    electrones. Simplemente agregamos ahora la ecuacion de gases ideales:
+    <math|P=N k T> y podremos saber la temperatura de la estrella si conoce
+    la presion.
+  </itemize-minus>
+
+  <subsection|Equilibrio termico>
+
+  Se dice que una masa de gas se encuentra en equilibrio térmico cuando está
+  caracterizada por una única temperatura en toda su extensión.
+
+  Resulta entonces evidente que <strong|una estrella>, aún encontrándose en
+  condiciones de equilibrio hidrostático, <strong|no estará nunca en
+  equilibrio térmico>. Esto es así sencillamente porque su temperatura
+  central suele ser de millones de grados, mientras que su temperatura
+  superficial es apenas de algunos miles de grados.
+
+  No obstante, existe en general <strong|estacionariedad>; es decir, <em|la
+  temperatura en cada punto del interior de una estrella> permanece<strong|
+  constante> durante períodos de tiempo largos comparados con los tiempos
+  típicos para la generación de energía.
+
+  <\itemize-dot>
+    <item>Moraleja: Una estrella no esta nunca en equilibrio termico, pero
+    hay estacionariedad.
+  </itemize-dot>
+
+  Para que dicha estacionariedad se mantega, es necesario que la cantidad de
+  energía \<varepsilon\>\<rho\> generada por unidad de volumen y por unidad
+  de tiempo, sea exactamente igual al flujo neto de energía que emerge del
+  elemento de volumen, en la unidad de tiempo.
+
+  Nuevamente consideramos un diferencial de volumen de una estrella.
+  Supongamos que <math|L<around*|(|r|)>> es la cantidad de energia que emerge
+  del diferencial de radio <math|r> (Esta energia entra al cascaron
+  esferico), mientras que <math|L<around*|(|r+d r|)>> es la energia que se
+  pierde por el cascaron esferico con radio <math|r+d r> entonces la
+  diferencia entre la energia ganada y recibida es:
+
+  <\equation*>
+    L<around*|(|r+d r|)>-L<around*|(|r|)>=\<rho\> 4\<pi\> r<rsup|2>
+    \<varepsilon\>\<Leftrightarrow\><with|color|dark
+    green|<block*|<tformat|<table|<row|<cell|<frac|d L|d r>=\<rho\> 4\<pi\>
+    r<rsup|2> \<varepsilon\>>>>>>>
+  </equation*>
+
+  Siendo esta cantidad positiva, entonces tendremos que estamos perdiendo
+  energia, esta energia debe ser repuesta de alguna forma, concretamente a
+  traves de la energia nuclear. Esta ecuacion se denomina, ecuacion de
+  <with|color|green|<with|color|dark green|Equilibrio Termico>>.
+
   <section|Mini - Practico>
 
   <\enumerate-numeric>
@@ -607,7 +885,7 @@
     <item>Deducir la Ecuacion de Estado.
 
     <item>Calcular la temperatura en el interior de una estrella utilizando
-    la ecuacion de estado.
+    la ecuacion de estado
   </enumerate-numeric>
 </body>
 
@@ -620,41 +898,46 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|3|5>>
-    <associate|auto-11|<tuple|4|5>>
-    <associate|auto-12|<tuple|1.7|6>>
-    <associate|auto-13|<tuple|5|6>>
-    <associate|auto-14|<tuple|6|6>>
-    <associate|auto-15|<tuple|1.8|7>>
-    <associate|auto-16|<tuple|1.8.1|7>>
-    <associate|auto-17|<tuple|7|7>>
-    <associate|auto-18|<tuple|2|7>>
-    <associate|auto-19|<tuple|8|8>>
+    <associate|auto-10|<tuple|1.7|5>>
+    <associate|auto-11|<tuple|3|5>>
+    <associate|auto-12|<tuple|4|6>>
+    <associate|auto-13|<tuple|1.8|6>>
+    <associate|auto-14|<tuple|5|6>>
+    <associate|auto-15|<tuple|6|7>>
+    <associate|auto-16|<tuple|1.9|7>>
+    <associate|auto-17|<tuple|1.9.1|7>>
+    <associate|auto-18|<tuple|7|7>>
+    <associate|auto-19|<tuple|2|8>>
     <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-20|<tuple|2.0.1|8>>
-    <associate|auto-21|<tuple|9|8>>
-    <associate|auto-22|<tuple|3|8>>
-    <associate|auto-23|<tuple|3.1|?>>
-    <associate|auto-24|<tuple|3.1.1|?>>
-    <associate|auto-25|<tuple|3.1.2|?>>
-    <associate|auto-26|<tuple|3.1.3|?>>
-    <associate|auto-27|<tuple|3.2|?>>
-    <associate|auto-28|<tuple|3.2.1|?>>
-    <associate|auto-29|<tuple|3.2.2|?>>
+    <associate|auto-20|<tuple|8|8>>
+    <associate|auto-21|<tuple|2.0.1|8>>
+    <associate|auto-22|<tuple|9|9>>
+    <associate|auto-23|<tuple|3|9>>
+    <associate|auto-24|<tuple|3.1|9>>
+    <associate|auto-25|<tuple|3.2|9>>
+    <associate|auto-26|<tuple|3.2.1|9>>
+    <associate|auto-27|<tuple|3.2.2|9>>
+    <associate|auto-28|<tuple|3.2.3|10>>
+    <associate|auto-29|<tuple|3.3|10>>
     <associate|auto-3|<tuple|1.2|1>>
-    <associate|auto-30|<tuple|10|?>>
-    <associate|auto-31|<tuple|11|?>>
-    <associate|auto-32|<tuple|3.2.3|?>>
-    <associate|auto-33|<tuple|3.2.4|?>>
-    <associate|auto-34|<tuple|3.2.5|?>>
-    <associate|auto-35|<tuple|4|?>>
+    <associate|auto-30|<tuple|3.3.1|10>>
+    <associate|auto-31|<tuple|3.3.2|11>>
+    <associate|auto-32|<tuple|10|11>>
+    <associate|auto-33|<tuple|11|11>>
+    <associate|auto-34|<tuple|3.3.3|12>>
+    <associate|auto-35|<tuple|3.3.4|12>>
+    <associate|auto-36|<tuple|3.3.5|?>>
+    <associate|auto-37|<tuple|4|?>>
+    <associate|auto-38|<tuple|12|?>>
+    <associate|auto-39|<tuple|4.1|?>>
     <associate|auto-4|<tuple|1.3|2>>
+    <associate|auto-40|<tuple|5|?>>
     <associate|auto-5|<tuple|1.4|3>>
-    <associate|auto-6|<tuple|1|3>>
-    <associate|auto-7|<tuple|1.5|4>>
-    <associate|auto-8|<tuple|2|4>>
-    <associate|auto-9|<tuple|1.6|5>>
-    <associate|cite_ref-1|<tuple|3.2|?>>
+    <associate|auto-6|<tuple|1.5|3>>
+    <associate|auto-7|<tuple|1|4>>
+    <associate|auto-8|<tuple|1.6|4>>
+    <associate|auto-9|<tuple|2|5>>
+    <associate|cite_ref-1|<tuple|3.3|9>>
   </collection>
 </references>
 
@@ -738,6 +1021,17 @@
         variacion temporal. Observese que cada linea esta indicada con una
         referencia segun su masa.
       </surround>|<pageref|auto-21>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
+        Esta ecuacion equipara las fuerzas gravitatoria y de presion para que
+        haya equilibrio. Esta ecuacion por lo tanto nos dice que debe haber
+        un equilibrio entre la presion y la gravedad. El signo menos indica
+        que entre mas decrece el radio, mas chica es la misma.[?]
+      </surround>|<pageref|auto-30>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
+        \;
+      </surround>|<pageref|auto-31>>
     </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Fuentes
@@ -792,6 +1086,50 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>Ecuaciones
       fundamentales> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|3.1<space|2spc>Introduccion
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-23>>
+
+      <with|par-left|<quote|2tab>|3.1.1<space|2spc>Estado estacionario
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-24>>
+
+      <with|par-left|<quote|2tab>|3.1.2<space|2spc>Equilibrio termodinamico
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-25>>
+
+      <with|par-left|<quote|2tab>|3.1.3<space|2spc>Transporte de energia
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-26>>
+
+      <with|par-left|<quote|1tab>|3.2<space|2spc>Las ecuaciones de la
+      estructura estelar. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-27>>
+
+      <with|par-left|<quote|2tab>|3.2.1<space|2spc>Ecuacion de continuidad,
+      conservacion de la masa <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-28>>
+
+      <with|par-left|<quote|2tab>|3.2.2<space|2spc>Ecuacion de equilibrio
+      Hidrostatico <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-29>>
+
+      <with|par-left|<quote|2tab>|3.2.3<space|2spc>Conservacion de la masa
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-32>>
+
+      <with|par-left|<quote|2tab>|3.2.4<space|2spc>Ecuacion de Estado
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-33>>
+
+      <with|par-left|<quote|2tab>|3.2.5<space|2spc>Temperatura en el interior
+      de una estrella <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-34>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>Mini
+      - Practico> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-35><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
