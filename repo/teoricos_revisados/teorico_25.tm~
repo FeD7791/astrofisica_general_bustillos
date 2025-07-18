@@ -1,0 +1,55 @@
+<TeXmacs|2.1.4>
+
+<style|generic>
+
+<\body>
+  <doc-data|<doc-title|Evolucion en la secuencia principal>>
+
+  Las estrellas generan la energia que las sostiene mediante fusion nuclear y
+  contraccion gravitacional. Esto da lugar a 3 escalas de tiempo evolutivas
+  clave, que estan basadas en estos procesos. Estas escalas son las
+  siguientes:
+
+  <\itemize-dot>
+    <item>Escala de tiempo de caida libre (<em|free-fall timescale>):
+    <nbsp>Time for a gas cloud to collapse under
+    gravity<nbsp><em|without><nbsp>pressure support.
+
+    <\equation*>
+      \<tau\><rsub|f f>=<sqrt|<frac|3\<pi\>|32 G \<rho\>>>
+    </equation*>
+
+    Donde: G: constante de la gravedad y <math|\<rho\>>: densidad de la nube
+    molecular.
+
+    <\itemize-minus>
+      <item>Domina la formacion protoestelar
+    </itemize-minus>
+
+    <item>Escala de tiempo de Kelvin-Helmholtz: Time for a star to radiate
+    away its gravitational energy<nbsp><em|without><nbsp>nuclear fusion.
+
+    <\equation*>
+      \<tau\><rsub|K H>\<thickapprox\><frac|G M<rsup|2>|R L>
+    </equation*>
+
+    Aqui: M,RL son la masa, radio y luminosidad de la estrella.
+
+    <\itemize-minus>
+      <item>Domina la contraccion pre-secuencia principal.
+    </itemize-minus>
+
+    <item>Escala temporal Nuclear: <nbsp>Time a star spends burning a
+    specific nuclear fuel.
+
+    <\equation*>
+      \<tau\><rsub|nuc>=<frac|\<varepsilon\><rsub|nuc> M c<rsup|2>|L>
+    </equation*>
+  </itemize-dot>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|paper>
+  </collection>
+</initial>
