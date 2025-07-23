@@ -5,6 +5,8 @@
 <\body>
   <doc-data|<doc-title|Evolucion en la secuencia principal>>
 
+  \;
+
   Las estrellas generan la energia que las sostiene mediante fusion nuclear y
   contraccion gravitacional. Esto da lugar a 3 escalas de tiempo evolutivas
   clave, que estan basadas en estos procesos. Estas escalas son las
@@ -48,6 +50,28 @@
 
     Aqui: <math|\<varepsilon\><rsub|nuc>>: Eficiencia de la Fusion Nuclear.
   </itemize-dot>
+
+  <section|La secuencia principal>
+
+  The analysis of stellar spectra tells us that the <strong|atmospheres> of
+  the vast majority of all stars are composed primarily of <strong|hydrogen>,
+  usually <strong|about 70%> by mass (X \<sim\> 0. 7), whereas the mass
+  fraction of <strong|metals> varies from near zero to <strong|approximately
+  3%> (0 \<less\> Z \<less\> 0.03).\ 
+
+  Assuming that the initial composition of a star is homogeneous the rst set
+  of nuclear fusion reactions ought to be those that convert hydrogen into
+  helium (the <strong|pp chains> and/or the <strong|CNO cycle>).\ 
+
+  These reactions occur at the lowest temperatures because the associated
+  Coulomb barrier is lower than that for the burning of more massive nuclei.
+  Consequently, the structure of a homogeneous, hydrogen-rich star ought to
+  be strongly in\]uenced by hydrogen nuclear burning deep within its
+  interior.
+
+  Because of the predominance of hydrogen that initially exists in the core,
+  and since hydrogen burning is a relatively slow process, the interior
+  composition and structure of the star will change slowly.
 
   <section|Evolucion de las estrellas de baja masa en la MS>
 
@@ -191,7 +215,34 @@
 
     <item>HAY QUE SABER CUANDO UNA ESSTRELLA, DE QUE MASA, VA A SUFRIR HELIUM
     FLASH. Una estrella de menos de 5 no lo sufre.
+
+    <item>Distintas tipos de enanas: La enana Marron es una estrella fallida,
+    nunca logro ser una estrella. La enana Blanca es la remanente de una
+    estrella. Si se enfriara lo suficiente llegaria a la hipotetica enana
+    Negra, ausente de toda temperatura.
+
+    <item>Se consideran estrellas de baja masa a estrellas de 1M y de masa
+    intermedia a estrellas de 5M.
+
+    <item>El Helium flash se produce en estrellas de 1 M estelar. Esto tiene
+    que ver con la degeneracion electronica. En el nucleo los atomos estan
+    muy cerca. De pronto se produce un derrumbe en el centro (todo esto es
+    teoria). Este dura unos cuantos minutos. Parece que despues del flash de
+    Helio inicia la cema de Helio.
+
+    <item>La fusion de helio es inestable por ello se produce este flash de
+    Helio. Esta radiacion es recibida por las capas circundantes, y por ello
+    se expanden. Solo se produce en estrellas de masa parecida a la del sol.
+
+    <item><strong|Subgigante SGB>
+
+    <item>Crece el nucleo de Helio y se contrae y las capas mas externas se
+    expanden, luego se enfrian. Aumenta la opacidad. Se retiene la Energia.
   </itemize-dot>
+
+  \;
+
+  https://people.ast.cam.ac.uk/~pettini/Stellar%20Structure%20Evolution/
 </body>
 
 <\initial>
@@ -203,8 +254,9 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-2|<tuple|1|2>>
-    <associate|auto-3|<tuple|2|?>>
+    <associate|auto-2|<tuple|2|2>>
+    <associate|auto-3|<tuple|1|2>>
+    <associate|auto-4|<tuple|3|?>>
   </collection>
 </references>
 
@@ -226,6 +278,10 @@
       de las estrellas de baja masa en la MS>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Resumen
+      Teorico de Andrea> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
