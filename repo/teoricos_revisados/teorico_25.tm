@@ -91,6 +91,107 @@
   Asimismo todas tienden hacia un aumento de luminosidad, siendo en general
   <math|L\<gtr\>L<rsub|0>>. Quien computo por primera vez estos tracks
   evolutivos fue Icko Iben, Jr en los anios 1960.
+
+  \;
+
+  <section|Resumen Teorico de Andrea>
+
+  <\itemize-dot>
+    <item>La evolucion de las estrellas a lo largo de las lineas de Hayashi
+    dependiendo de la masa. La evolucion estelar depende de la masa que se
+    tenga. La evolucion en la pre-secuencia principal tambien depende de la
+    masa.
+
+    <item>En las estrellas de baja masa, los caminos de las lineas de hayashi
+    , tenemos cambios abruptos (En cuanto a luminosidad).
+
+    <item>El proceso que lleva a una protoestrella a una estrella, es el de
+    contraccion. Cuando se llega a la secuencia principal, la estrella
+    alcanza el equilibrio Hidrostatico.
+
+    <item>Cuando el Hidrogeno del nucleo se consume, entonces el equilibrio
+    se pierde. El nucleo que antes era de hidrogeno, al cabo de un tiempo, se
+    transforma en un nucleo de Helio, el cual no es capaz de fusionar ese
+    helio en otro nucleo mas pesado. Habra una envolvente de este nucleo, en
+    donde se fusiona el hidrogeno en Helio. El resto de la estrella, tendra
+    hidrogeno estabe.
+
+    <item>Lo que sucede despues depende de la masa. El desarollo de la
+    protoestrella depende de la masa. Hay por supuesto un limite para la
+    masa. Una nube molecular que no es suficientemente masiva, nunca logran
+    convertirse en estrellas.
+
+    <item>Tambien protoestrellas extremadamente masivas, nunca llegaran a una
+    condicion de estabilidad y estas se desmoronaran. Los limites son tanto
+    superiores como inferiores.
+
+    <item>NGC270 (En la nube de magallanes). Es una region muy particular del
+    universo, que es una region con una gran formacion estelar. Aqui se
+    pensaba que las estrellas mas masivas podian llegar a tener 50 Masas
+    solares. Sin embargo se descubrieron estrellas muy masivas, como 300
+    veces la masa del sol.
+
+    <item>Entonces cuan masiva puede ser una estrella? En el paper de
+    Crowther, se encuentran estrellas de un millon y medio de anios, con
+    masas en el rango de 100 y 170. Ademas encontro 4 estrellas de hasta 300
+    masas solares.
+
+    <item>Para conocer las masas se utilizaron espectros y fotometria. Se
+    pueden ver espectros para las estrellas mas masivas:
+
+    <item><image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+    from 2025-07-22 21-07-37.png|0.7par|||>
+
+    <item>Las estrellas de muy baja mas son las denominadas enanas rojas o
+    las enanas marrones. En estas el transporte de energia sera enteramente
+    convectivo. Nunca se podra aglomerar en el centro helio y poder generar
+    elementos mas pesados. Por la conveccion, el helio se mezcla
+    continuamente con el hidrogeno. Sus atmosferas son altamente opacas por
+    lo cual no son brillantes.
+
+    <item>Estrellas con masa estelar y composicion quimica parecida a la del
+    sol, una masa inferior permitida para formar estrellas es de 7/100. Si es
+    menor tendremos las estrellas fallidas.
+
+    <item>Hablaremos de la evolucion de las estrellas de distinta masa. La
+    mayor parte de la vidad de una estrella sera en la secuecnia principal
+    fusionando hdirogene en helio.\ 
+
+    <item>Para estrellas de la parte baja de la secuecnia principal con masas
+    menores a 1.2 la masa del sol , el ciclo por el cual el hidrogeno se
+    convertira en helio, sera el ciclo proton-proton. Con temperaturas
+    centrales de 16millones de Kelvin.\ 
+
+    <item>Para estrellas parecidas al sol, si el medio donde se formo la
+    estrella tenia carbono, nitrogeno y oxigeno, el proceso de fusion, sera
+    el CNO. Este CNO actuaba de catalizador.
+
+    <item>Para estrellas mas masivas, en la upper main sequence, el ciclo que
+    predominara sera el CNO.
+
+    <item>Icko iben, es el que presento los primeros modelos de evolucion
+    estelar en la secencia principal.
+
+    <item>Deacuerdo a la masa qeu tengan las estrellas en la MS, los modelos
+    indicaban como iba a ser la evolucion cuando se rompiera el equilibrio.
+
+    <item>Se presentan los tracks evolutivos, que muestran el lugar en el
+    diagrama HR que ocupan en el tiempo estrellas de distinta masa. Para
+    estrellas con una composicion similar a la del sol, se pueden ver los
+    tracks evolutivos. Se muestra una tabla con el tiempo que le tarda a cada
+    estrella llegar a un determinado punto en el diagrama HR.
+
+    <item>Una masa como la del sol, tarda 1.0 M de anios en salir de la
+    secuencia principal.\ 
+
+    <item>Aqui podemos ver los estadios de evolucion estelar:
+
+    <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+    2025-07-22 21-33-12.png|0.7par|||>
+
+    <item>HAY QUE SABER CUANDO UNA ESSTRELLA, DE QUE MASA, VA A SUFRIR HELIUM
+    FLASH. Una estrella de menos de 5 no lo sufre.
+  </itemize-dot>
 </body>
 
 <\initial>
@@ -101,7 +202,30 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|1|?>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|1|2>>
+    <associate|auto-3|<tuple|2|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|figure>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
+        La imagen de la derecha se llama denomina Track evolutivo de las
+        estrellas en la secuencia principal. Cada una de las lineas que se
+        extiende desde la ZAMS, hacia la derecha corresponde los estadios
+        evolutivos en temperatura y luminosidad de las estrellas de una misma
+        Masa, pero en estadios temprales distintos. En la tabla de la derecha
+        se lista el tiempo que tarda en llegar una estrella de una
+        determinada masa hacia un punto del diagrama en cuestion.
+      </surround>|<pageref|auto-2>>
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Evolucion
+      de las estrellas de baja masa en la MS>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
