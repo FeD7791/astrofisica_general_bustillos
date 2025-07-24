@@ -243,6 +243,116 @@
   \;
 
   https://people.ast.cam.ac.uk/~pettini/Stellar%20Structure%20Evolution/
+
+  <section|Metodos de Transporte>
+
+  Fuente: https://www.youtube.com/watch?v=1I9_kJuD3os
+
+  <\big-figure|<image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+  from 2025-07-23 20-29-44.png|0.7par|||>>
+    Estos son los 3 metodos de transporte de energia.
+  </big-figure>
+
+  <\itemize-dot>
+    <item>Conduccion: Es basicamente el transporte de energia basado en las
+    colisiones entre particulas. Requiere, para ser relevante que la estrella
+    este extremadamente compactada. Esto no sucede en las estrellas
+    \PNormales\Q si no en remanentes como enanas blancas o estrellas de
+    neutrones (supongo)
+
+    <item>La conveccion: Este es el transporte de energia donde las moleculas
+    que estan mas calientes se vuelven menos densas y por lo tanto \Psuben\Q
+    mientras que las mas frias bajan. Cuando las moleculas calientes, suben,
+    se van enfriando y el ciclo continua.
+
+    <item>Radiacion: Hace referencia a la emision de ondas electromagneticas
+    por parte de un emisory la recepcion de las mismas por parte de un
+    receptor.
+  </itemize-dot>
+
+  La siguiente pregunta que tenemos que responder es: Cuando una estrella
+  tiene como metodo principal de transporte de energia la Radiacion y cuando
+  la Conveccion?
+
+  <\itemize-dot>
+    <item>La respuesta de esto depende de la <strong|opacidad> de la estrella
+    y la relacion <strong|temperatura-Energia>.
+  </itemize-dot>
+
+  Examinemos primero la <strong|Opacidad.>
+
+  Un material de opacidad alta, es un material con la capacidad de absorber y
+  dispersar fotones en gran cantidad. Cuando la opacidad del material es
+  alta, entonces la radiacion es un mecanismo de transporte de energia muy
+  ineficiente. Por lo cual y dicho de otra forma, cuando la opacidad es alta,
+  la conveccion toma el control.
+
+  <\itemize-dot>
+    <item>El siguiente punto es CLAVE: La ionizacion del Hidrogeno tiene
+    lugar a 10000[K]
+  </itemize-dot>
+
+  En caso de estrellas de muy baja masa, las capas <strong|exteriores> no son
+  lo suficientemente calientes como para ionizar el Hidrogeno. Si el
+  Hidrogeno no esta ionizado, entonces puede absorber o emitir fotones para
+  hacer transicionar a su unico electron. En consecuencia, la opacidad de las
+  estrellas de baja masa es alta en las <strong|capas exteriores>. Por lo
+  tanto, facilmente podemos deducir que para las estrellas de baja masa, el
+  mecanismo de transporte de energia en el <strong|exterior>, es convectivo.
+
+  Para estrellas de alta masa, su <strong|exterior> es <strong|caliente>, lo
+  suficiente como para ionizar el Hidrogeno. En consecuencia al estar
+  ionizado, deja pasar facilmente los fotones. Las capas mas
+  <strong|exteriores> entonces tienen baja opacidad y por lo tanto el
+  mecanismo de transporte de energia es la <strong|radiacion>.
+
+  Examinamos ahora la relacion <strong|Temperatura-Energia>, para ver que
+  ocurre en el nucleo de las estrellas.
+
+  En lineas generales, la conveccion domina, cuando la relacion entre energia
+  y temperatura en una estrella cambia de forma abrupta.
+
+  <\itemize-dot>
+    <item>Para una estrella de baja masa , esta relacion es de
+    <math|E\<propto\>T<rsup|4>> - PP chain
+
+    <item>Para una estrella de alta masa , esta relacion es de
+    <math|E\<propto\>T<rsup|20>> - CNO chain
+  </itemize-dot>
+
+  En consecuencia, en el nucleo de una estrella de baja masa sera la
+  radiacion el metodo de transporte dominante. Mientras que en el nucleo de
+  la estrella de alta masa, lo sera la conveccion.
+
+  <\big-figure|<image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+  from 2025-07-23 20-57-55.png|0.7par|||>>
+    Las estrellas de baja masa tienen: Transporte radiativo en el nucleo y
+    transporte convectivo en las capas exteriores. Las estrellas de alta masa
+    tienen, transporte convectivo en el nucleo y transporte radiativo en las
+    capas exteriores.
+  </big-figure>
+
+  <\big-figure|<image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot
+  from 2025-07-23 20-59-56.png|0.7par|||>>
+    En estrellas de muy muy baja masa tendremos un metodo de transporte
+    convectivo en toda la estrella.
+  </big-figure>
+
+  <section|Notas>
+
+  Evolucion de estrellas masivas en la MS
+
+  Comentado para una estrella de una sola masa solar, a masomenos 10Gyr, el
+  hidrogenos se quema y esto deja un nucleo de Helio, que esta rodeado de una
+  capa de Hidrogeno. Es en esta capa que se generan reacciones quimicas que
+  producen energia para la estrella.
+
+  La temperatura del nucleo de He es isotermica.
+
+  En una estrella masiva, el metodo de transporte en el nucleo es CONVECTIVO.
+  Basicamente la conveccion es lo que esta mas caliente, se vuelve menos
+  denso y por ello se desplaza hacia capas mas exteriores. Posteriormente
+  estas moleculas se enfrian y caen hacia el centro y el proceso continua.
 </body>
 
 <\initial>
@@ -256,7 +366,12 @@
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|1|2>>
-    <associate|auto-4|<tuple|3|?>>
+    <associate|auto-4|<tuple|3|3>>
+    <associate|auto-5|<tuple|4|?>>
+    <associate|auto-6|<tuple|2|?>>
+    <associate|auto-7|<tuple|3|?>>
+    <associate|auto-8|<tuple|4|?>>
+    <associate|auto-9|<tuple|5|?>>
   </collection>
 </references>
 
@@ -271,17 +386,21 @@
         Masa, pero en estadios temprales distintos. En la tabla de la derecha
         se lista el tiempo que tarda en llegar una estrella de una
         determinada masa hacia un punto del diagrama en cuestion.
-      </surround>|<pageref|auto-2>>
+      </surround>|<pageref|auto-3>>
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Evolucion
-      de las estrellas de baja masa en la MS>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>La
+      secuencia principal> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Resumen
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Evolucion
+      de las estrellas de baja masa en la MS>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>Resumen
       Teorico de Andrea> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.5fn>
+      <no-break><pageref|auto-4><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
