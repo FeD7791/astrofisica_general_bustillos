@@ -876,17 +876,330 @@
   traves de la energia nuclear. Esta ecuacion se denomina, ecuacion de
   <with|color|green|<with|color|dark green|Equilibrio Termico>>.
 
-  <section|Mini - Practico>
+  <section|Teorico - Carolina Chavero>
 
-  <\enumerate-numeric>
-    <item>Explique la ecuacion de conservacion de la masa y haga una minima
-    deduccion de la misma.
+  <\itemize-dot>
+    <item>Definicion de Estrella: Una estrella, es una esfera de gas
+    (modelado como gas ideal) en balance hidrostatico entre su autogravedad y
+    el gradiente de presion termica de su interior el cual es alimentado por
+    reacciones termicas en su nucleo.
 
-    <item>Deducir la Ecuacion de Estado.
+    <item>El gas se comporta de como gas ideal por lo cual satisface: <math|P
+    V=n R T> o bien: <math|P =n k<rsub|B>T>, donde <math|N> es el numero de
+    particulas por unidad de volumen.
+  </itemize-dot>
 
-    <item>Calcular la temperatura en el interior de una estrella utilizando
-    la ecuacion de estado
-  </enumerate-numeric>
+  <subsection|Equilibrio Hidrostatico>
+
+  <\itemize-dot>
+    <item>Esta condicion indica que la fuerza de atraccion gravitatoria y la
+    de presion de los gases deben equilibrarse para formar un objeto estable.
+    En una estrella en equilibrio hidrostatico se debe cumplir que
+    <math|R=cte>.
+
+    <item>La ecuacion que describe el equilibrio hidrostatico se puede
+    construir analizando un diferencial de masa de la estrella. Este
+    diferencial de masa se piensa como un cilindro con una altura diferencial
+    el cual experimenta 3 fuerzas: Presion en la tapa y presion en la base,
+    gravedad:
+
+    <\equation*>
+      d m <frac|d<rsup|2>r|d t<rsup|2>>=F<rsub|g>+F<rsub|P,t>+F<rsub|P,b>=F<rsub|g>-d
+      F<rsub|P>
+    </equation*>
+
+    <item>En la ultima linea podemos ver que <math|d
+    F<rsub|P>=F<rsub|P,t>+F<rsub|P,b>> , la presion de la base debe ser mayor
+    a la de la tapa, siendo estas de misma area entonces la fuerza en la base
+    debe ser mayor a la de la tapa.
+
+    <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+    2025-07-27 15-50-59.png|0.5par|||>
+
+    <item>La version final nos dice que, como la aceleracion radial debe ser
+    cero:
+
+    <math|-G <frac|M|r<rsup|2>>=<frac|1|\<rho\>><frac|d P|d r>>
+
+    <item>Esta ecuacion nos dice que un gradiente de presion radial debe
+    existir para contrarrestar la gravedad. Observese que si aumenta el radio
+    luego la presion debe disminuri, mientras que si disminuye el radio, la
+    presion debe aumentar.
+  </itemize-dot>
+
+  <subsection|Ecuacion de la conservacion de la masa>
+
+  <\itemize-dot>
+    <item>Consideremos un diferencial de masa en la estrella, el volumen
+    asociado al mismo estara dado por:
+
+    <\equation*>
+      d V=4\<pi\> r<rsup|2> d r\<Leftrightarrow\>d
+      M=\<rho\><around*|(|4\<pi\> r<rsup|2> d r|)>
+    </equation*>
+
+    <item>Esta expresion nos indica que, a densidad constante, como cambia la
+    masa segun la distancia radial.
+  </itemize-dot>
+
+  <subsection|Ecuacion de estado>
+
+  <\itemize-dot>
+    <item>Esta ecuacion nos dice que el gas en una estrella se modela como un
+    gas ideal:
+
+    <math|P V=n R T>
+
+    <item>En un gas ideal las colisiones son perfectamente elasticas (No hay
+    perdida de energia)
+  </itemize-dot>
+
+  <subsection|Presion de Radiacion>
+
+  <\itemize-dot>
+    <item>Los fotones llevan momento y por lo tanto, la radiacion ejerce una
+    presion. Los fotones son bosones que obedecen las estadisticas de
+    Bose-Einstein. Estos fotones llevan energia:
+
+    <math|E=h \<nu\>=p c>\ 
+
+    <item>Ahora calculamos la energia asociada a un gas de fotones:
+
+    <\equation*>
+      u=<frac|E<rsub|total>|V>=<frac|1|V><big|sum><rsub|<with|font-series|bold|k>><frac|g
+      h \<nu\>|exp<around*|(|h \<nu\>/k<rsub|B> T|)>-1>
+    </equation*>
+
+    Aqui la suma esta hecha sobre todos los modos
+    <math|<with|font-series|bold|k>>.
+
+    <item>Podemos convertir la suma en una integral haciendo:
+    <math|<big|int><rsub|0><rsup|\<infty\>>g<around*|(|\<nu\>|)> d
+    \<nu\>\<leftrightarrow\><big|sum><rsub|<with|font-series|bold|k>>>, aqui
+    <math|g<around*|(|\<nu\>|)>=<frac|8\<pi\>\<nu\><rsup|2>|c<rsup|3>>>,
+    donde <math|g<around*|(|\<nu\>|)> d \<nu\>> es la densidad de estados.
+    Ahora podemmos integrar la expresion:
+
+    <\equation*>
+      u=<big|int><rsub|0><rsup|\<infty\>><frac|8\<pi\>h\<nu\><rsup|3>|c<rsup|3>><frac|1|exp<around*|(|h
+      \<nu\>/k<rsub|B> T|)>-1> d \<nu\>
+    </equation*>
+
+    <item>Esta integral da como resultado: <math|u=a T<rsup|4>=<frac|8
+    \<pi\><rsup|5>k<rsub|B><rsup|4>|15 h<rsup|3> c<rsup|3>><around*|[|J
+    m<rsup|-3> K<rsup|-4>|]>> Podemos ademas definirlo como: <math|a=<frac|4
+    \<sigma\>|c>>
+  </itemize-dot>
+
+  <subsection|Mecanismos de produccion de energia en las estrellas.>
+
+  <\itemize-dot>
+    <item>Contraccion Gravitacional: Importante en la formacion de las
+    estrellas. Pero no puede generar energia durante millones de anios sin
+    generar cambios apreciables en las estrellas.
+
+    <item>El siguiente argumento se da para descartar a la contraccion
+    gravitacional como fuente de energia: Primero si consideramos al sol, que
+    tiene una vida media en la secuencia principal de <math|1
+    Gyr=10<rsup|10>yr>, la contraccion gravitacional de <math|10<rsup|-4>> da
+    energia suficiente como para reponer lo perdido por radiacion en 2000
+    anios.
+
+    <item>Entonces si : <math|10<rsup|-4>R<rsub|\<odot\>>\<leftrightarrow\>10<rsup|3>yr\<Rightarrow\><frac|R<rsub|\<odot\>>/2|10<rsup|-4
+    >R<rsub|\<odot\>>>10<rsup|3>yr=<frac|1|2>10<rsup|7> yr> o sea que en
+    <math|<frac|1|2>10<rsup|7>yr> el sol se habria contraido en la mitad de
+    su radio para reponer la energia, lo cual va en contra de la evidencia.
+
+    <item>La contraccion gravitatoria no es la fuente principal de energia.
+
+    <item>Pasamos a explicar de donde sale esta energia:
+
+    <\itemize-minus>
+      <item>Consideramos una cascara, un diferencial de masa , el cual ejerce
+      una fuerza gravitatoria. Queremos analizar cual es la contribucion neta
+      de esta cascara. Empezamos por escribir la expresion Newtoniana de la
+      gravedad:
+
+      <math|F<rsub|g>=G<frac|d m M<rsub|r>|r<rsup|2>>> , aqui
+      <math|M<rsub|r>> es la masa encerrada por nuestra cascara. El potencial
+      asociado a esta fuerza esta dado por: (<math|d m=\<rho\> 4\<pi\>
+      r<rsup|2 >d r >)
+
+      <\equation*>
+        U=-G<frac|d m M<rsub|r>|r<rsup|>>=<frac|-G\<rho\> M<rsub|r> 4\<pi\>
+        r<rsup|2> d r|r>=-G M<rsub|r>\<rho\>4\<pi\> r d r
+      </equation*>
+
+      <item>Aqui <math|M<rsub|r>> es la masa hasta radio <math|r>:
+      <math|M<rsub|r>=<frac|4|3>\<pi\> r<rsup|3>>
+
+      <item>Si integra en el radio puede tener la contribucion gravitacional
+      total. Para realizarla se requiere saber como varia la densidad con el
+      radio, puede asumir que esta es constante:
+      <math|\<rho\><around*|(|r|)>=\<rho\>> y que es igual al valor medio de
+      la densidad:
+
+      <\equation*>
+        <overline|\<rho\>>=<frac|M|<frac|4|3>\<pi\> R<rsup|3>>
+      </equation*>
+
+      <item>Donde <math|M> es la totalidad de la masa de la estrella.
+      Entonces:
+
+      <\equation*>
+        U=-G<around*|(|<frac|M|<frac|4|3>\<pi\>
+        R<rsup|3>>|)>4\<pi\><big|int><rsub|0><rsup|R>r<around*|(|<frac|4|3>\<pi\>
+        r<rsup|3>|)> d r
+      </equation*>
+
+      <item>Resolver esta integral nos da aproximadamente:
+
+      <\equation*>
+        U=-<frac|3|5><frac|G M<rsup|2>|R>
+      </equation*>
+
+      <item>Si esta es la energia gravitatoria, el teorema del virial nos
+      dice que:\ 
+
+      <math|2 K+U=0\<Leftrightarrow\>K=-<frac|U|2>=<frac|3|10><frac|G
+      M<rsup|2>|R>>
+
+      <item>Si dejamos colapsar una estrella gravitacionalmente, entonces la
+      energia liberada durante la contraccion se convierte en energia
+      cinetica. Esta energia cinetica se convierte en una mitad de calor y la
+      otra en radiacion.
+    </itemize-minus>
+
+    <item>Para el caso del Sol, podemos ver cuanta energia se produce por el
+    colapso gravitatorio y ver si esta es la fuente:
+
+    <\itemize-minus>
+      <item><math|K=<frac|3|10><frac|G M<rsub|\<odot\>><rsup|2>|R<rsub|\<odot\>>>>
+    </itemize-minus>
+
+    <item>Podemos definir aqui el Tiempo de Kelvin - Helmholtz:
+
+    <\equation*>
+      \<tau\><rsub|K H>=<frac|\<Delta\> E|L>\<thickapprox\><frac|G M|R L>
+    </equation*>
+
+    <item>Para el sol, <math|\<tau\><rsub|K H>=10<rsup|7> yr>, menor que la
+    vida del sol en la secuencia principal.
+  </itemize-dot>
+
+  <subsection|Procesos Quimicos - Completar>
+
+  <subsection|Procesos Nucleares>
+
+  <\itemize-dot>
+    <item>Diferenciar entre molecula y atomo: Molecula, esta compuesta por
+    varios atomos de algun tipo o distintos tipos. Las reacciones quimicas
+    transforman atomos en moleculas o moleculas en otro tipo de moleculas.
+
+    <item>Las reacciones nucleares, que ocupan esta seccion, transforman un
+    atomo de un tipo en un atomo de otro tipo.
+
+    <item>En los interiores estelares, los atomos estan ionizados
+    practicamente en su totalidad. La fusion se da a lugar entre nucleos
+    atomicos colisionantes, el cual es un proceso exoteermico (En principio)
+    lo cual genera un atomo mas pesado liberando energia.
+
+    <item>De donde sale la energia? La masa de 4 atomos de Hidrogeno son casi
+    iguales a la masa de un atomo de Helio, ese casi es importante, y
+    representa un 0.7 % mas de masa extra que en el proceso de fusion se
+    convierte en energia.
+
+    <item>Puede calcular la cantidad de energia liberada en este proceso de
+    fusion utilizando la ecuacion <math|E=m c<rsup|2>>. La energia liberada
+    al formar un atomo de Helio es de aproximadamente: 26.7 MeV
+  </itemize-dot>
+
+  Es en este punto que introducimos una nueva escala de tiempo, el tiempo
+  nuclear:
+
+  <\equation*>
+    \<tau\><rsub|nuc>=<frac|E<rsub|nuc>|L>=<frac|m c<rsup|2>|L>
+  </equation*>
+
+  Si se asume que el sol estuviese compuesto por solamente hidrogeno, y que
+  solo el 10% de su masa se conveirte en helio obtiene:\ 
+
+  <\equation*>
+    \<tau\><rsub|nuc>=1Gyr
+  </equation*>
+
+  <subsubsection|Procesos Nucleares>
+
+  <\itemize-dot>
+    <item>El nucleo de un elemento particular esta especificado por el numero
+    de protones que contiene. En un atomo neutro, el numero de protones es
+    igual al numero de electrones.\ 
+
+    <item>Para que las reacciones nucleares ocurran en los interiores
+    estelares debe romperse la barrera culombiana, la cual es la fuerza de
+    repulsion debida a cargas de mismo signo.
+
+    <image|file:///home/jorgefederico/Pictures/Screenshots/Screenshot from
+    2025-07-27 19-40-30.png|0.7par|||>
+
+    <item>El grafico muestra que para vencer la barrera culombiana, se
+    necesita 1MeV de energia. Pasada esta barrera se tiene la fuerza nuclear
+    fuerte que une a los atomos entre si (Esta deberia ser atractiva).
+
+    <item>Pueden hacerse calculos, igualando la energia cinetica y la fuerza
+    de culomb para ver cual es la energia sufici9ente para iniciar el proceso
+    de fusion del Helio que en este caso seria de
+    <math|10<rsup|10><around*|[|K|]>>:
+
+    <math|<frac|3|2> k T<rsub|classical>=<frac|1|4\<pi\>\<varepsilon\><rsub|0>><frac|Z<rsub|1>Z<rsub|2>e<rsup|2>|r>>
+
+    <item>La temperatura media del sol es de
+    <math|T=10<rsup|7><around*|[|K|]>>, la cual no seria suficiente como para
+    iniciar la fusion de Hidrogeno. Que sucede?
+
+    <item>El efecto tunel, permite superar la barrera de potencial
+    culombiano, haciendo que finalmente el nucleo quede dentro del rango de
+    la fuerza nuclear fuerte. Recordar que el efecto tunel se debe a el
+    principio de incertidumbre, donde no podemos conocer la posicion y el
+    momento con precision al mismo tiempo.
+
+    <item>Se requiere una estimasion NO classica si no cuantica de la
+    temperatura. El valor calculado para esta temperatura es de
+    <math|10<rsup|7><around*|[|K|]>> para el caso del sol.
+  </itemize-dot>
+
+  <subsection|Ecuacion de Luminosidad>
+
+  <\itemize-dot>
+    <item>Nos interesa calcular la contribucion a la luminosidad de una masa
+    infinitesimal <math|d m>. Planteamos la ecuacion:
+
+    <\equation*>
+      d L=\<varepsilon\> d m
+    </equation*>
+
+    <item>Donde <math|\<varepsilon\>> es la energia total liberada por unidad
+    de masa y tiempo debido a:
+
+    <\itemize-minus>
+      <item>Reacciones nucleares
+
+      <item>Gravedad
+    </itemize-minus>
+
+    <item>Para una simetria esferica podemos escribir:
+
+    <\equation*>
+      <frac|d L<rsub|r>|d r>=4\<pi\> r<rsup|2> \<rho\> \<varepsilon\>
+    </equation*>
+
+    <item>Donde <math|L<rsub|r>> es la luminosidad debida a la energia
+    liberada dentro de un radio <math|r>.
+  </itemize-dot>
+
+  \;
+
+  \;
 </body>
 
 <\initial>
@@ -898,46 +1211,55 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|1.7|5>>
-    <associate|auto-11|<tuple|3|5>>
-    <associate|auto-12|<tuple|4|6>>
-    <associate|auto-13|<tuple|1.8|6>>
-    <associate|auto-14|<tuple|5|6>>
-    <associate|auto-15|<tuple|6|7>>
-    <associate|auto-16|<tuple|1.9|7>>
-    <associate|auto-17|<tuple|1.9.1|7>>
-    <associate|auto-18|<tuple|7|7>>
-    <associate|auto-19|<tuple|2|8>>
+    <associate|auto-10|<tuple|1.7|6>>
+    <associate|auto-11|<tuple|3|6>>
+    <associate|auto-12|<tuple|4|7>>
+    <associate|auto-13|<tuple|1.8|7>>
+    <associate|auto-14|<tuple|5|8>>
+    <associate|auto-15|<tuple|6|8>>
+    <associate|auto-16|<tuple|1.9|9>>
+    <associate|auto-17|<tuple|1.9.1|9>>
+    <associate|auto-18|<tuple|7|9>>
+    <associate|auto-19|<tuple|2|10>>
     <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-20|<tuple|8|8>>
-    <associate|auto-21|<tuple|2.0.1|8>>
-    <associate|auto-22|<tuple|9|9>>
-    <associate|auto-23|<tuple|3|9>>
-    <associate|auto-24|<tuple|3.1|9>>
-    <associate|auto-25|<tuple|3.2|9>>
-    <associate|auto-26|<tuple|3.2.1|9>>
-    <associate|auto-27|<tuple|3.2.2|9>>
-    <associate|auto-28|<tuple|3.2.3|10>>
-    <associate|auto-29|<tuple|3.3|10>>
+    <associate|auto-20|<tuple|8|10>>
+    <associate|auto-21|<tuple|2.0.1|10>>
+    <associate|auto-22|<tuple|9|11>>
+    <associate|auto-23|<tuple|3|11>>
+    <associate|auto-24|<tuple|3.1|11>>
+    <associate|auto-25|<tuple|3.2|13>>
+    <associate|auto-26|<tuple|3.2.1|13>>
+    <associate|auto-27|<tuple|3.2.2|13>>
+    <associate|auto-28|<tuple|3.2.3|13>>
+    <associate|auto-29|<tuple|3.3|14>>
     <associate|auto-3|<tuple|1.2|1>>
-    <associate|auto-30|<tuple|3.3.1|10>>
-    <associate|auto-31|<tuple|3.3.2|11>>
-    <associate|auto-32|<tuple|10|11>>
-    <associate|auto-33|<tuple|11|11>>
-    <associate|auto-34|<tuple|3.3.3|12>>
-    <associate|auto-35|<tuple|3.3.4|12>>
-    <associate|auto-36|<tuple|3.3.5|?>>
-    <associate|auto-37|<tuple|4|?>>
-    <associate|auto-38|<tuple|12|?>>
-    <associate|auto-39|<tuple|4.1|?>>
-    <associate|auto-4|<tuple|1.3|2>>
-    <associate|auto-40|<tuple|5|?>>
-    <associate|auto-5|<tuple|1.4|3>>
+    <associate|auto-30|<tuple|3.3.1|14>>
+    <associate|auto-31|<tuple|3.3.2|14>>
+    <associate|auto-32|<tuple|10|15>>
+    <associate|auto-33|<tuple|11|15>>
+    <associate|auto-34|<tuple|3.3.3|16>>
+    <associate|auto-35|<tuple|3.3.4|16>>
+    <associate|auto-36|<tuple|3.3.5|16>>
+    <associate|auto-37|<tuple|4|16>>
+    <associate|auto-38|<tuple|12|17>>
+    <associate|auto-39|<tuple|4.1|18>>
+    <associate|auto-4|<tuple|1.3|1>>
+    <associate|auto-40|<tuple|5|19>>
+    <associate|auto-41|<tuple|5.1|?>>
+    <associate|auto-42|<tuple|5.2|?>>
+    <associate|auto-43|<tuple|5.3|?>>
+    <associate|auto-44|<tuple|5.4|?>>
+    <associate|auto-45|<tuple|5.5|?>>
+    <associate|auto-46|<tuple|5.6|?>>
+    <associate|auto-47|<tuple|5.7|?>>
+    <associate|auto-48|<tuple|5.7.1|?>>
+    <associate|auto-49|<tuple|5.8|?>>
+    <associate|auto-5|<tuple|1.4|2>>
     <associate|auto-6|<tuple|1.5|3>>
-    <associate|auto-7|<tuple|1|4>>
-    <associate|auto-8|<tuple|1.6|4>>
+    <associate|auto-7|<tuple|1|3>>
+    <associate|auto-8|<tuple|1.6|5>>
     <associate|auto-9|<tuple|2|5>>
-    <associate|cite_ref-1|<tuple|3.3|9>>
+    <associate|cite_ref-1|<tuple|3.3|14>>
   </collection>
 </references>
 
@@ -951,12 +1273,12 @@
         blanca, 2 radiacion gamma y 2 neutrinos. Formando fiinalmente nuestro
         nucleo de Helio con 2 Protones y 2 Neutrones. En el medio puede verse
         como se forma brevemente nucleos de Deuterio.
-      </surround>|<pageref|auto-6>>
+      </surround>|<pageref|auto-7>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
         Para que este ciclo pueda generearse debe haber de antemano , carbon
         , nitrogeno y oxigeno en el gas del cual se formo la estrella.
-      </surround>|<pageref|auto-8>>
+      </surround>|<pageref|auto-9>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
         Aca tenemos la tasa de energia relativa:
@@ -966,12 +1288,12 @@
         <with|mode|<quote|math>|T<rsup|4>> mientras que la del ciclo CNO es
         proporcional a <with|mode|<quote|math>|T<rsup|17>>. En la figura
         puede verse el sol, que tienen una temperatura de aproximadamente
-        <with|mode|<quote|math>|15\<times\>10<rsup|6><around*|[|K|]>>. Como
-        puede verse, par ala misma la cadena proton proton es la que da el
-        mayor aporte de enrgia. Para mayores temperaturas, mas alla de los
-        <with|mode|<quote|math>|18\<times\>10<rsup|6><around*|[|K|]>>,
+        <with|mode|<quote|math>|15\<times\>10<rsup|6><around*|[|K|]>> en su
+        nucleo. Como puede verse, para la misma la cadena proton proton es la
+        que da el mayor aporte de enrgia. Para mayores temperaturas, mas alla
+        de los <with|mode|<quote|math>|18\<times\>10<rsup|6><around*|[|K|]>>,
         tendremos que domina el ciclo CNO.
-      </surround>|<pageref|auto-10>>
+      </surround>|<pageref|auto-11>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
         Este diagrama muestra los porcentajes de la composicion de los
@@ -980,20 +1302,20 @@
         (<with|mode|<quote|math>|10<rsup|10><around*|[|y|]>>) se observa como
         la franccion de Helio en la estrella crece en el centro, hasta ser su
         mayoria en el mismo.
-      </surround>|<pageref|auto-11>>
+      </surround>|<pageref|auto-12>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
         En el proceso dos nucleos de Helio, con sus dos protones cada uno
         froman un nucleo de Berilio, que tiene 4 protones. Segun el grafico
         esto genera un rayo gamma. Posteriormente el berilio mas otro Helio,
         forma el carbono.
-      </surround>|<pageref|auto-13>>
+      </surround>|<pageref|auto-14>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
         Este grafico, ahora compara las eficiencias a distintas temperaturas
         considerando adicionalmente la cadena triple alpha. Puede observarse
         como esta empieza a dar mayor energia a muy altas temperaturas.
-      </surround>|<pageref|auto-14>>
+      </surround>|<pageref|auto-15>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
         Estos procesos continuan gradualmente impulsados por la temperatura
@@ -1003,12 +1325,12 @@
         en el siguiente. Por ejemplo el H se transforma en He en 7 millones
         de anios. No existe ningun fenomeno que pueda fusionar el hierro, por
         lo cual al alcanzar esa instancia se produce una supernova.
-      </surround>|<pageref|auto-17>>
+      </surround>|<pageref|auto-18>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
         Esta tabla muestra el tiempo que le toma a una estrella pasar al
         siguiente estadio en la secuencia principal.
-      </surround>|<pageref|auto-19>>
+      </surround>|<pageref|auto-20>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
         Diagrama HR de L vs <with|mode|<quote|math>|T<rsub|eff>>. Este
@@ -1020,116 +1342,139 @@
         tenemos esetrellas con la misma masa(isomasica) , en estos hay
         variacion temporal. Observese que cada linea esta indicada con una
         referencia segun su masa.
-      </surround>|<pageref|auto-21>>
+      </surround>|<pageref|auto-22>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
         Esta ecuacion equipara las fuerzas gravitatoria y de presion para que
         haya equilibrio. Esta ecuacion por lo tanto nos dice que debe haber
         un equilibrio entre la presion y la gravedad. El signo menos indica
         que entre mas decrece el radio, mas chica es la misma.[?]
-      </surround>|<pageref|auto-30>>
+      </surround>|<pageref|auto-32>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
         \;
-      </surround>|<pageref|auto-31>>
+      </surround>|<pageref|auto-33>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
+        Tenemos una estrella, y un cilindro de gas orientado de forma radial.
+        Por un lado tendremos que las tapas del cilindro sufren la fuerza de
+        presion P.
+      </surround>|<pageref|auto-38>>
     </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Fuentes
       de energia estelar> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|1.1<space|2spc>Contraccion gravitacional
+      <with|par-left|<quote|1tab>|1.1<space|2spc>Resumen
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|1tab>|1.2<space|2spc>Energia Termica y cinetica
+      <with|par-left|<quote|1tab>|1.2<space|2spc>Contraccion gravitacional
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1tab>|1.3<space|2spc>La energia nuclear
+      <with|par-left|<quote|1tab>|1.3<space|2spc>Energia Termica y cinetica
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
-      <with|par-left|<quote|1tab>|1.4<space|2spc>Cadena - Proton-Proton 34:27
+      <with|par-left|<quote|1tab>|1.4<space|2spc>La energia nuclear
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5>>
 
-      <with|par-left|<quote|1tab>|1.5<space|2spc>El ciclo C-N-O
+      <with|par-left|<quote|1tab>|1.5<space|2spc>Cadena - Proton-Proton 34:27
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7>>
+      <no-break><pageref|auto-6>>
 
-      <with|par-left|<quote|1tab>|1.6<space|2spc>Los ciclos PP y CNO
+      <with|par-left|<quote|1tab>|1.6<space|2spc>El ciclo C-N-O
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-9>>
+      <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|1tab>|1.7<space|2spc>Otra cadena - Proceso Triple
+      <with|par-left|<quote|1tab>|1.7<space|2spc>Los ciclos PP y CNO
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-10>>
+
+      <with|par-left|<quote|1tab>|1.8<space|2spc>Otra cadena - Proceso Triple
       alpha <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-12>>
+      <no-break><pageref|auto-13>>
 
-      <with|par-left|<quote|1tab>|1.8<space|2spc>Mas procesos
+      <with|par-left|<quote|1tab>|1.9<space|2spc>Mas procesos
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-15>>
-
-      <with|par-left|<quote|2tab>|1.8.1<space|2spc>Quemado del Oxigeno y del
-      Carbon <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16>>
+
+      <with|par-left|<quote|2tab>|1.9.1<space|2spc>Quemado del Oxigeno y del
+      Carbon <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Tiempo
       de permanencia en la secuencia principal>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-18><vspace|0.5fn>
+      <no-break><pageref|auto-19><vspace|0.5fn>
 
       <with|par-left|<quote|2tab>|2.0.1<space|2spc>Trayectorias Evolutivas
       Teoricas <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-20>>
+      <no-break><pageref|auto-21>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>Ecuaciones
       fundamentales> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-22><vspace|0.5fn>
+      <no-break><pageref|auto-23><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|3.1<space|2spc>Introduccion
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-23>>
-
-      <with|par-left|<quote|2tab>|3.1.1<space|2spc>Estado estacionario
+      <with|par-left|<quote|1tab>|3.1<space|2spc>Resumen
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-24>>
 
-      <with|par-left|<quote|2tab>|3.1.2<space|2spc>Equilibrio termodinamico
+      <with|par-left|<quote|1tab>|3.2<space|2spc>Introduccion
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-25>>
 
-      <with|par-left|<quote|2tab>|3.1.3<space|2spc>Transporte de energia
+      <with|par-left|<quote|2tab>|3.2.1<space|2spc>Estado estacionario
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-26>>
 
-      <with|par-left|<quote|1tab>|3.2<space|2spc>Las ecuaciones de la
-      estructura estelar. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.2.2<space|2spc>Equilibrio termodinamico
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-27>>
 
-      <with|par-left|<quote|2tab>|3.2.1<space|2spc>Ecuacion de continuidad,
-      conservacion de la masa <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.2.3<space|2spc>Transporte de energia
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-28>>
 
-      <with|par-left|<quote|2tab>|3.2.2<space|2spc>Ecuacion de equilibrio
-      Hidrostatico <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1tab>|3.3<space|2spc>Las ecuaciones de la
+      estructura estelar. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-29>>
 
-      <with|par-left|<quote|2tab>|3.2.3<space|2spc>Conservacion de la masa
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-32>>
+      <with|par-left|<quote|2tab>|3.3.1<space|2spc>Ecuacion de continuidad,
+      conservacion de la masa <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-30>>
 
-      <with|par-left|<quote|2tab>|3.2.4<space|2spc>Ecuacion de Estado
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-33>>
+      <with|par-left|<quote|2tab>|3.3.2<space|2spc>Ecuacion de equilibrio
+      Hidrostatico <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-31>>
 
-      <with|par-left|<quote|2tab>|3.2.5<space|2spc>Temperatura en el interior
-      de una estrella <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.3.3<space|2spc>Conservacion de la masa
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-34>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>Mini
+      <with|par-left|<quote|2tab>|3.3.4<space|2spc>Ecuacion de Estado
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-35>>
+
+      <with|par-left|<quote|2tab>|3.3.5<space|2spc>Temperatura en el interior
+      de una estrella <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-36>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>Notas
+      - Principio Evolucion Estelar - Libro Claria>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-37><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|4.1<space|2spc>Equilibrio termico
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-39>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>Mini
       - Practico> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-35><vspace|0.5fn>
+      <no-break><pageref|auto-40><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
