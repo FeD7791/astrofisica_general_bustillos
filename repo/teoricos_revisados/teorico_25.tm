@@ -643,7 +643,7 @@
 
       <image|https://upload.wikimedia.org/wikipedia/commons/5/5c/Evolution_of_the_Sun_2_EN.svg||0.7par||>
 
-      English: Evolution of solar-mass star on H-R diagram from pre-MS phase
+      Evolution of <strong|solar-mass star> on H-R diagram from pre-MS phase
       to the end of fusion. The diagram is based on illustrations from: SDSS
       and Chandra telescope webpages.
     </itemize-minus>
@@ -918,10 +918,10 @@
     <associate|auto-18|<tuple|6.3.1|11>>
     <associate|auto-19|<tuple|6.4|12>>
     <associate|auto-2|<tuple|2|1>>
-    <associate|auto-20|<tuple|7|13>>
-    <associate|auto-21|<tuple|6.4.1|?>>
-    <associate|auto-22|<tuple|6.5|?>>
-    <associate|auto-23|<tuple|6.6|?>>
+    <associate|auto-20|<tuple|7|14>>
+    <associate|auto-21|<tuple|6.4.1|15>>
+    <associate|auto-22|<tuple|6.5|16>>
+    <associate|auto-23|<tuple|6.6|17>>
     <associate|auto-3|<tuple|1|2>>
     <associate|auto-4|<tuple|3|2>>
     <associate|auto-5|<tuple|4|5>>
@@ -983,6 +983,18 @@
         sucede es que la estrella se contrae, lo cual significa reducir su
         radio y aumenta la temperatura del nucleo.
       </surround>|<pageref|auto-12>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
+        <with|color|<quote|red>|Porque una estrella se expande? Cuando
+        tenemos un nucleo de Helio el cual ha iniciado su proceso triple
+        alfa, este aumenta su temperatura, ahora como el mismo esta asociado
+        a una envoltura de Hidrogeno, que esta fusionando, mas otra envoltura
+        de Hidrogeno inerte, el aumento de temperatura deberia hacer que
+        estas envolutras se expandan. >Entiendo que si el nucleo de helio se
+        contrae y genera el proceso triple alfa, la envolvente hidrogeno
+        -\<gtr\> helio deberia expandirse, la envolvente mas externa podria
+        expandirse un poco pero tener menos temperatura por estar lejos.
+      </surround>|<pageref|auto-20>>
     </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>La
@@ -1042,7 +1054,15 @@
 
       <with|par-left|<quote|2tab>|6.4.1<space|2spc>Presion electronica de un
       gas degenerado - Flash de Helio <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-20>>
+      <no-break><pageref|auto-21>>
+
+      <with|par-left|<quote|1tab>|6.5<space|2spc>Etapa de Supergigante roja
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-22>>
+
+      <with|par-left|<quote|1tab>|6.6<space|2spc>Etapa final de una estrella
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-23>>
     </associate>
   </collection>
 </auxiliary>
