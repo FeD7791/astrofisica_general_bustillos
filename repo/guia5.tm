@@ -72,7 +72,7 @@
       probable: <math|v<rsub| mp>=<sqrt|<frac|2 k T|m>>>
 
       <item>Tambien tenemos la <math|v<rsub|rms>=<sqrt|<frac|3 k T|m>>>
-      (Mayor velocidad que <math|v<rsub|mp>>
+      (Mayor velocidad que <math|v<rsub|mp>>)
     </itemize-minus>
   </itemize-dot>
 
@@ -118,8 +118,8 @@
   esta dado por:
 
   <\equation*>
-    <frac|P<around*|(|\<chi\><rsub|b>|)>|P<around*|(|\<chi\><rsub|a>|)>>=<frac|e<rsup|-E<rsub|b>
-    k T>|e<rsup|-E<rsub|b> k T>>=e<rsup|-<around*|(|E<rsub|b>-E<rsub|a>|)>/k
+    <frac|P<around*|(|\<chi\><rsub|b>|)>|P<around*|(|\<chi\><rsub|a>|)>>=<frac|e<rsup|-E<rsub|b>/
+    k T>|e<rsup|-E<rsub|a>/k T>>=e<rsup|-<around*|(|E<rsub|b>-E<rsub|a>|)>/k
     T>
   </equation*>
 
