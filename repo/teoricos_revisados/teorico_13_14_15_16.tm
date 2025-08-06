@@ -3,6 +3,81 @@
 <style|generic>
 
 <\body>
+  <section|Transiciones radiativas>
+
+  Teniendo en cuenta los fenomenos de <with|font-series|bold|Ionizacion/Recombinacion>
+  y <with|font-series|bold|excitacion/desexcitacion>, los procesos pueden ser
+  en general 2:
+
+  <\itemize-dot>
+    <item><with|font-series|bold|Radiativo>: Este proceso involucra fotones
+    para hacer la Ionizcion/Recombinacion o excitacion/desexcitacion.\ 
+
+    Existen 3 tipos de transiciones radiativas de tipo
+    excitacion/desexitacion:
+
+    <\itemize-minus>
+      <item><with|font-series|bold|Emision Espontanea>: Un atomo con su
+      electron exitado, en ausencia de factores externos, tiende a
+      desexcitarse, emitiendo un foton (o varios).
+
+      <item><with|font-series|bold|Absorcion>: Un foton del campo radiante es
+      absorbido para provocar la excitacion del electron en el atomo.
+
+      <item><with|font-series|bold|Emision Estimulada>: Esto ocurre cuando un
+      foton del campo radiante, induce de alguna forma al atomo a realizar
+      una emision.
+    </itemize-minus>
+
+    Ahora examinamos la Ionizacion para el caso radiativo:
+
+    <\itemize-minus>
+      <item>Cuando la radiacion es de origen radiativo, se denomina
+      <with|font-series|bold|fotoionizacion>. Nuevamente es un foton con
+      enregia suficiente como para ionizar el atomo, desprendiendo lun
+      electron.
+    </itemize-minus>
+
+    <item><with|font-series|bold|Colisional>: Que no involucra fotones para
+    la I/R , e/de. Esta es provocada por una colision inelastica con
+    particulas libres.
+
+    <\itemize-minus>
+      <item>Para el caso de excitaciones, estas tambien pueden suceder de
+      forma colisional, siendo que el atomo choca con un electron libre, en
+      una colision inelastica, cediendo este ultimo energia.
+
+      <item>Las desexcitationes tambien son colisionales, siendo el atomo que
+      le cede energia para aumentar la velocidad del electron.
+    </itemize-minus>
+
+    Veamos el caso de la Ionizacion
+
+    <\itemize-minus>
+      <item>De la misma forma, un atomo puede ser ionizado como resultado de
+      la colision de un atomo con un electron libre.
+
+      <item>Para el caso de la recombinacion, un atomo captura un electron
+      libre, entregando energia a una tercera particula.
+    </itemize-minus>
+
+    <item>Los siguientes terminos hacen referencia a:
+
+    <\itemize-minus>
+      <item>Ligado - Ligado: Una transicion entre niveles ligados del atomo
+      (El electron siempre esta capturado por el atomo, solo se exita o
+      des-excita)
+
+      <item>Ligado - Libre: Esto simboliza un proceso de Ionizacion, donde el
+      elctron en el estado ligado transiciona a electron libre.
+
+      <item>Libre-Ligado: Esto simboliza un proceso de recombinacion
+
+      <item>Libre-Libre: Hace referencia a lo que le sucede a un electron
+      libre, el cual puede ganar energia por radiacion o colision.
+    </itemize-minus>
+  </itemize-dot>
+
   <section|Equilibrio Termodinamico>
 
   <subsection|Equilibrio Termodinamico>
@@ -266,18 +341,19 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|1|4>>
-    <associate|auto-11|<tuple|3.2|4>>
-    <associate|auto-12|<tuple|3.3|?>>
-    <associate|auto-13|<tuple|2|?>>
-    <associate|auto-2|<tuple|1.1|1>>
-    <associate|auto-3|<tuple|1.1.1|2>>
-    <associate|auto-4|<tuple|2|2>>
+    <associate|auto-10|<tuple|4.1.3|4>>
+    <associate|auto-11|<tuple|1|4>>
+    <associate|auto-12|<tuple|4.2|4>>
+    <associate|auto-13|<tuple|4.3|5>>
+    <associate|auto-14|<tuple|2|?>>
+    <associate|auto-2|<tuple|2|1>>
+    <associate|auto-3|<tuple|2.1|2>>
+    <associate|auto-4|<tuple|2.1.1|2>>
     <associate|auto-5|<tuple|3|2>>
-    <associate|auto-6|<tuple|3.1|2>>
-    <associate|auto-7|<tuple|3.1.1|3>>
-    <associate|auto-8|<tuple|3.1.2|3>>
-    <associate|auto-9|<tuple|3.1.3|4>>
+    <associate|auto-6|<tuple|4|2>>
+    <associate|auto-7|<tuple|4.1|2>>
+    <associate|auto-8|<tuple|4.1.1|3>>
+    <associate|auto-9|<tuple|4.1.2|3>>
   </collection>
 </references>
 
@@ -288,15 +364,15 @@
         Esta figura muestra como la fraccion de atomos de Hidrogeno aumenta a
         medida que se acerca y se supera la temperatura de Ionizacion del
         Hidrogeno.
-      </surround>|<pageref|auto-8>>
+      </surround>|<pageref|auto-10>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
         \;
-      </surround>|<pageref|auto-11>>
+      </surround>|<pageref|auto-13>>
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Ecuaciones
-      de Boltzmann y Saha> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Equilibrio
+      Termodinamico> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <with|par-left|<quote|1tab>|1.1<space|2spc>Equilibrio Termodinamico
@@ -307,29 +383,37 @@
       equilibrio termodinamico. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1tab>|1.2<space|2spc>Ecuacion de Maxwell
-      Boltzmann <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>Leyes
+      de Kirchhoff> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.5fn>
 
-      <with|par-left|<quote|2tab>|1.2.1<space|2spc>Distribucion de
-      Maxwell-Boltzmann <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-5>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>Ecuaciones
+      de Boltzmann y Saha> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.5fn>
 
-      <with|par-left|<quote|2tab>|1.2.2<space|2spc>Ecuacion de Maxwell
+      <with|par-left|<quote|1tab>|3.1<space|2spc>Ecuacion de Maxwell
       Boltzmann <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>>
 
-      <with|par-left|<quote|2tab>|1.2.3<space|2spc>La ecuacion de Saha
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.1.1<space|2spc>Distribucion de
+      Maxwell-Boltzmann <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7>>
 
-      <with|par-left|<quote|1tab>|1.3<space|2spc>Combinacion de MB - Saha
+      <with|par-left|<quote|2tab>|3.1.2<space|2spc>Ecuacion de Maxwell
+      Boltzmann <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8>>
+
+      <with|par-left|<quote|2tab>|3.1.3<space|2spc>La ecuacion de Saha
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      <with|par-left|<quote|1tab>|1.4<space|2spc>Tipos de Temperatura
+      <with|par-left|<quote|1tab>|3.2<space|2spc>Combinacion de MB - Saha
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10>>
+      <no-break><pageref|auto-11>>
+
+      <with|par-left|<quote|1tab>|3.3<space|2spc>Tipos de Temperatura
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-12>>
     </associate>
   </collection>
 </auxiliary>
